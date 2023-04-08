@@ -13,6 +13,11 @@ We first plan to showcase our code through a Raspberry Pi Stimulation on Day 1, 
 # 2)What are the equipment and what is their respective use?
     DHT22  :    Soil Moisture
     NPK    :    Nutrient Supply
+    DHT11  :    Temperature Sensor
+    
+# 3)How do you plan to access the data provided by the sensors?
+   We plan to access the data provided by the sensors using thr open - source API calling tool  :  Mycodo.
+   Nycodo essentially lightens our work by it's great UI design that helps us to control our sensors with ease.
     
 
 Code of all avaiable sensors has been checked and complied
