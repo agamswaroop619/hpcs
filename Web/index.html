@@ -1,72 +1,50 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" >
 <head>
- <link rel="stylesheet" href="homepage.css">
+    
+
+<!--  SGVsbG8hIE15IG5hbWUgaXMgU2FyYSBNYXphbC4gV2VsY29tZSB0byBteSBDb2RlUGVuIQ== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- SGVsbG8hIE15IG5hbWUgaXMgU2FyYSBNYXphbC4gV2VsY29tZSB0byBteSBDb2RlUGVuOiBodHRwczovL2NvZGVwZW4uaW8vU2FyYW1hemFsICYgR2l0SHViOiBodHRwczovL2dpdGh1Yi5jb20vc2FyYW1hemFs -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+<script src="defaultvalues.js"></script>
+
 </head>
 <body>
-    <div class="centerflipcards">
-        <div class="square-flip">
-            <div class='square' data-image="https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb">
-                <div class="square-container">
-                    <div class="align-center"><img src="http://titanicthemes.com/files/flipbox/kallyas2.png" class="boxshadow" alt=""></div>
-                    <h2 class="textshadow">DHT 22</h2>
-                    <h3 class="textshadow">Used for Soil Moisture</h3>
-                </div>
-                <div class="flip-overlay"></div>
-            </div>
-            <div class='square2' data-image="https://images.unsplash.com/photo-1477313372947-d68a7d410e9f?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb">
-                <div class="square-container2">
-                    <div class="align-center"></div>
-                    <h2>Default data v1</h2>
-                </div>
-                <div class="flip-overlay"></div>
-            </div>
-        </div>
+<!-- partial:index.partial.html -->
+<sectio class="nav">
+  <h1>NucleX</h1>
+  <h3 class="span loader"><span class="m">B</span><span class="m">E</span><span class="m">N</span><span class="m">E</span><span class="m">F</span><span class="m">I</span><span class="m">T</span><span class="m">S</span><span class="m">&nbsp;</span><span class="m">o</span><span class="m">f</span><span class="m">&nbsp;</span><span class="m">T</span><span class="m">E</span><span class="m">C</span><span class="m">H</span><span class="m">N</span><span class="m">O</span><span class="m">L</span><span class="m">O</span><span class="m">G</span><span class="m">I</span><span class="m">E</span><span class="m">S</span></h3>
+  <div class="nav-container"><a class="nav-tab" href="#tab-svelte">NPK</a><a class="nav-tab" href="#tab-esbuild">DHT 22</a><a class="nav-tab" href="#tab-next">DHT 11</a><span class="nav-tab-slider"></span></div>
+</sectio>
+<main class="main">
+  <section class="slider" id="tab-svelte">
+    <h1>NPK</h1>
+    <h2>Nitrogen, Pottasium and phosphorus sensor</h2>
+    <h3 id="my-text3" onclick="changeNutri()">Click here to find current values</h3>
     
-        <div class="square-flip">
-            <div class='square' data-image="http://titanicthemes.com/files/flipbox/kallyas-bundle.png">
-                <div class="square-container">
-                    <div class="align-center"><img src="http://titanicthemes.com/files/flipbox/kallyas.png" class="boxshadow" alt=""></div>
-                    <h2 class="textshadow">DHT 11</h2>
-                    <h3 class="textshadow">Used for air temperatures and humidity</h3>
-                </div>
-                <div class="flip-overlay"></div>
-            </div>
-            <div class='square2' data-image="http://titanicthemes.com/files/flipbox/kallyas-bundle.png">
-                <div class="square-container2">
-                    <div class="align-center"></div>
-                    <h2>Default data v2</h2>
-                </div>
-                <div class="flip-overlay"></div>
-            </div>
-        </div>
-    
-        <div class="square-flip">
-            <div class='square' data-image="https://instagram.fotp3-2.fna.fbcdn.net/t51.2885-15/e35/14712096_386502691740262_2357154798815412224_n.jpg?ig_cache_key=MTM2NzU2MzUwNjQ3OTUzOTgxNQ%3D%3D.2">
-                <div class="square-container">
-                    <div class="align-center"><img src="http://titanicthemes.com/files/flipbox/kallyas2.png" class="boxshadow" alt=""></div>
-                    <h2 class="textshadow">NPK</h2>
-                    <h3 class="textshadow">Used for NPK monitoring</h3>
-                </div>
-                <div class="flip-overlay"></div>
-            </div>
-            <div class='square2' data-image="http://titanicthemes.com/files/flipbox/kallyas-wedding.jpg">
-                <div class="square-container2">
-                    <div class="align-center"></div>
-                    <h2>Default data v3</h2>
-                </div>
-                <div class="flip-overlay"></div>
-            </div>
-        </div>
-      
-      <div class="clearfix"></div>
-      
-      <br/>
-      <br/>
-      <br/>
-      
-</div>
-    
-    
-    
+  </section>
+  <section class="slider" id="tab-esbuild">
+    <h1>DHT 22</h1>
+    <h2>Soil moisture sensor</h2>
+    <h3 id="my-text2" onclick="changeMoisture()">Click here to find current values</h3>
+  </section>
+  <section class="slider" id="tab-next">
+    <h1>DHT 11</h1>
+    <h2>Humidity and Air temperature</h2>
+    <h3 id="my-text1" onclick="changeTemp()">Click here to find current values</h3>
+  </section>
+  
+</main>
+<canvas class="background"></canvas><!-- SGVsbG8hIE15IG5hbWUgaXMgU2FyYSBNYXphbC4gV2VsY29tZSB0byBteSBDb2RlUGVuIQ== -->
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>

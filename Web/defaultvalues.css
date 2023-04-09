@@ -1,0 +1,9 @@
+.flash {
+  animation: flash-animation 1s linear;
+}
+
+@keyframes flash-animation {
+  0% { background-color: yellow; }
+  50% { background-color: white; }
+  100% { background-color: yellow; }
+}
