@@ -24,4 +24,4 @@ Q/A      :
    Nycodo essentially lightens our work by it's great UI design that helps us to control our sensors with ease.
     
 
-Code of all avaiable sensors has been checked and complied
+Code of all avaiable sensors has been checked and complied.
